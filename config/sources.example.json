@@ -1,0 +1,20 @@
+{
+  "_comment": "Copy to sources.json and edit. Paths are read-only; no stage writes to them. Point KIDNEYCT_SOURCES here if you keep it elsewhere.",
+
+  "dicom_roots": [
+    {"id": "ROOT_A", "path": "/data/ct/kidney_stone",        "collection": "BOBREK_TASI"},
+    {"id": "ROOT_B", "path": "/data/ct/kidney_ureter_stone", "collection": "BOBREK_URETER_TASI"},
+    {"id": "ROOT_C", "path": "/data/ct/ureter_stone",        "collection": "URETER_TASI"}
+  ],
+
+  "xlsx_primary": "/data/labels/primary_labels.xlsx",
+  "xlsx_secondary": "/data/labels/secondary_reports.xlsx",
+
+  "selected_slices_dir": "/data/labels/selected_slices",
+
+  "legacy_coronal_dirs": {
+    "BOBREK_TASI": "/data/legacy/coronal/kidney_stone",
+    "BOBREK_URETER_TASI": "/data/legacy/coronal/kidney_ureter_stone",
+    "URETER_TASI": "/data/legacy/coronal/ureter_stone"
+  }
+}

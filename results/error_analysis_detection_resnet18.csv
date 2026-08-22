@@ -1,0 +1,10 @@
+﻿stratum,n_kidneys,n_run,rate,kind
+≤3 mm,17,85,0.7764705882352941,sensitivity
+4–5 mm,29,145,0.9517241379310345,sensitivity
+6–10 mm,88,440,0.9795454545454545,sensitivity
+11–19 mm,65,325,0.9846153846153847,sensitivity
+≥20 mm,28,140,0.9928571428571429,sensitivity
+"size not
+recorded",19,95,0.8842105263157894,sensitivity
+"no reported
+stone",144,720,0.9069444444444444,specificity

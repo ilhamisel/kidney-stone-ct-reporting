@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: If you use this software or its results, please cite the article below.
+title: Automated Structured Pre-Report Generation for Nephrolithiasis on Non-Contrast CT
+abstract: >-
+  A hybrid CNN-Transformer framework that generates structured preliminary radiology
+  reports for kidney stones from non-contrast CT. Kidneys are localized automatically,
+  the kidney is the modelling unit, and stone presence, size class and intrarenal zone
+  are assembled into a report by a deterministic invertible template engine.
+type: software
+license: MIT
+authors:
+  - family-names: Karatoprak
+    given-names: Sinan
+    orcid: https://orcid.org/0000-0003-1139-1089
+    affiliation: Department of Radiology, Etlik City Hospital, Ankara, Turkey
+  - family-names: Sel
+    given-names: İlhami
+    orcid: https://orcid.org/0000-0003-0222-7017
+    affiliation: Department of Computer Engineering, Inonu University, Malatya, Turkey
+  - family-names: Karatoprak
+    given-names: Nur Betül
+    orcid: https://orcid.org/0000-0001-7672-576X
+    affiliation: Department of Radiology, Ankara University Faculty of Medicine, Ankara, Turkey
+  - family-names: Dağ
+    given-names: Nurullah
+    orcid: https://orcid.org/0000-0002-9342-0244
+    affiliation: Department of Radiology, Inonu University Faculty of Medicine, Malatya, Turkey
+keywords:
+  - nephrolithiasis
+  - structured reporting
+  - computed tomography
+  - multiple-instance learning
+  - medical imaging
+repository-code: https://github.com/ilhamisel/kidney-stone-ct-reporting

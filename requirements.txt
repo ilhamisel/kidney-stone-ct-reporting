@@ -1,0 +1,15 @@
+pydicom>=3.0
+pylibjpeg>=2.0
+pylibjpeg-libjpeg>=2.1
+pylibjpeg-openjpeg>=2.4
+numpy>=1.26
+pandas>=2.2
+pyarrow>=16.0
+openpyxl>=3.1
+opencv-python-headless>=4.10
+pillow>=10.0
+nibabel>=5.2
+scipy>=1.13
+scikit-learn>=1.5
+jsonschema>=4.22
+tqdm>=4.66

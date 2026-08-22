@@ -1,0 +1,40 @@
+# Working data — never committed
+workdir/
+00_private/
+01_index/
+02_archive/
+03_derived/
+04_labels/
+05_splits/
+06_qa/
+07_holdout_unlabeled/
+08_seg/
+09_ml/
+logs/
+config/sources.json
+
+# Imaging and model artefacts
+*.dcm
+*.nii
+*.nii.gz
+*.pt
+*.pth
+*.ckpt
+*.parquet
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
